@@ -8,7 +8,9 @@
     transform: rotate(-3deg);
     border-radius: 10px;
 }
-
+.titulo2{
+    align-items: center;
+}
 .tarjeta_luis{
     background-color: #5fd8ee;
     border: 1px solid #ccc;
