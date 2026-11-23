@@ -1,0 +1,81 @@
+.tarjeta_uriel{
+    background-color: #e6ff8c;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    height: 200px;
+    transform: rotate(-3deg);
+    border-radius: 10px;
+}
+
+.tarjeta_luis{
+    background-color: #5fd8ee;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    height: 200px;
+    transform: rotate(-3deg);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.tarjeta_dante{
+    background-color: #57fa57;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    height: 200px;
+    transform: rotate(3deg);
+    border-radius: 10px;
+}
+
+.boton{
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px
+}
+
+.titulo{
+    color:rgb(220, 33, 230);
+    font-family:Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitulo{
+    color:rgb(255, 155, 84);
+    font-family:Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contenedor_de_tarjetas{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nombres{
+    color:rgb(51, 21, 203);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contenido{
+    color:rgb(0, 0, 0);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px
+}
