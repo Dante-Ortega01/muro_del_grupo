@@ -10,6 +10,8 @@
     .tarjeta-nota {
       width: 17rem;
       transition: transform 0.25s ease, box-shadow 0.25s ease;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
     }
     .tarjeta-nota:hover {
       transform: rotate(0deg) scale(1.05) !important;
@@ -20,6 +22,9 @@
       font-family: "Arial Black", Gadget, sans-serif;
     }
   </style>
+
+  <script src="muro.js"></script>
+
 </head>
 <body class="bg-light min-vh-100 py-5">
 
@@ -33,6 +38,9 @@
 
     <div class="d-flex flex-wrap justify-content-center gap-4 mb-5">
 
+      <ul id="lista">
+
+       
       <div class="card tarjeta-nota bg-success-subtle border-0 border-top border-success border-4 rounded-4 shadow p-3" style="transform: rotate(-3deg);">
         <div class="card-body">
           <b class="d-block text-uppercase text-success-emphasis small mb-2">Uriel:</b>
@@ -53,11 +61,12 @@
           <span class="texto-recado fs-5 text-dark">Buscandote amor, responde por favor</span>
         </div>
       </div>
+      </ul>
 
     </div>
 
     <div class="text-center">
-      <button class="btn btn-warning text-white fw-bold fs-5 px-5 py-2 rounded-pill shadow">
+      <button class="btn btn-warning text-white fw-bold fs-5 px-5 py-2 rounded-pill shadow" onclick="publicarRecado()">
         Publicar recado
       </button>
     </div>
